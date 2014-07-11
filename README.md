@@ -17,7 +17,7 @@ React.showIf(...)
 
 Starts the "showIf" chain, accepting a `conditional` which may be either an array, string, or function. If it's an array,
 the conditional passes if all elements in the array pass. If it's a string it's assumed to be a method on the current
-object which returns a boolean. By default, the `rendering` method is called when the chain passes.
+object which returns a boolean. By default, the `rendering` method is called when the chain passes. If the render chain does not pass, an empty div is rendered by default.
 
 ```js
 var Demo = React.createClass({
