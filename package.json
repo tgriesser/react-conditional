@@ -1,0 +1,19 @@
+{
+  "name": "react-conditional",
+  "version": "0.1.0",
+  "description": "Conditionally Render React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Tim Griesser",
+  "license": "MIT",
+  "devDependencies": {
+    "envify": "~1.2.1",
+    "react": "~0.10.0",
+    "mocha": "~1.20.1"
+  }
+}
