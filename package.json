@@ -1,7 +1,7 @@
 {
   "name": "react-conditional",
   "version": "0.1.0",
-  "description": "Conditionally Render React Components",
+  "description": "Conditionally rendered React components",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -10,6 +10,14 @@
     "react"
   ],
   "author": "Tim Griesser",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tgriesser/react-conditional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tgriesser/react-conditional/issues"
+  },
+  "homepage": "https://github.com/tgriesser/react-conditional",
   "license": "MIT",
   "devDependencies": {
     "envify": "~1.2.1",
